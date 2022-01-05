@@ -10,8 +10,8 @@ valor = input('Digite o valor: ')
 valor = float(valor)
 
 valor1 = valor * 0.85
+print(f´O novo valor é: {valor1:.2f}')
 
-print(f'O novo valor é: {valor1:.2f}')
 =================================================
 
 """
@@ -37,8 +37,9 @@ def validade_informacoes():
     sexo = input('Digite o sexo: ')
     if sexo != 'F' and sexo != 'M' and sexo != 'Outro':
         print('Opção inválida.')
-
+     
 validade_informacoes()
+
 =====================================================
 """
 3. Vamos fazer um programa para verificar quem é o assassino de um crime. 
