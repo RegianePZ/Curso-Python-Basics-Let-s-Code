@@ -66,3 +66,55 @@ Cada resposta sim dá um ponto para o suspeito. A polícia considera que os susp
 ```
         for i in range(1, 11):
             print(f'9 * {i} = {9 * i}')
+
+```
+Curso-Python-Basics-Let-s-Code
+Módulo 2 - Exercícios
+
+1. Faça um programa que olhe todos os itens de uma lista e diga quantos deles
+são pares.
+```
+        for numero in range(2,20,2):
+            print(numero)
+```
+2. Faça um programa que peça para o usuário digitar uma palavra e imprima
+cada letra em uma linha.
+
+```
+        palavra = input("Digite uma palavra: ")
+
+        for letra in palavra:
+            print(letra)
+    
+```
+3. Faça uma função que recebe duas listas e retorna a soma item a item dessas
+listas.
+
+```
+        lista1 = [1, 2, 3]
+        lista2 = [4, 5, 6]
+
+        print(sum(lista1+lista2))
+```
+4. Crie um dicionário cujas chaves são os meses do ano e os valores são a
+duração (em dias) de cada mês.
+
+```
+        meses_do_ano = {
+
+        'janeiro': 31,
+        'fevereiro': 28,
+        'março': 31,
+        'abril': 30,
+        'maio': 31,
+        'junho': 30,
+        'julho': 31,
+        'agosto': 31,
+        'setembro': 30,
+        'outubro': 31,
+        'novembro': 30,
+        'dezembro': 31
+
+            }
+        for mes in meses_do_ano:
+            print(mes,meses_do_ano[mes])
